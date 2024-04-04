@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style1.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
+</head>
+<body class="body my-3">
+    
+    <div class="container my-5">
+        <div class="row my-4">
+            <div class="col-md-12 p1 my-3"><br/>
+                <h1 class="p1 p-2">Weather App</h1>
+                <div class="p1">
+                <input  type="text" placeholder="Location Name" id="inputtext" autofocus/>
+                <input class="p1" type="button" value="Get" id="btn" onclick="getdata()"/>
+                </div>
+                <img  class="img p1" src="cloud.png" alt="image"/>
+                <p class="temp p1"><span id="tempvalue">25</span><span>&#176</span><span>c</span></p>
+                <p class="p1" id="weatherdesc">Rainy</p>
+                <p  class="p1 loc" id="location">Delhi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+
+</body>
+</html>

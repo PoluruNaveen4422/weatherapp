@@ -1,0 +1,45 @@
+*{
+margin: 0px;
+padding: 0px;
+
+}
+.img{
+    width: 100px;
+    
+}
+.p1{
+    text-align: center;
+}
+#btn{
+    background-color: blue;
+    border-radius: 6px;
+    padding: 0px 10px;
+    color: white;
+}
+.container {
+    border: 1px solid grey;
+    margin-top: 250px;
+    background-color:aliceblue
+}
+.my-4{
+    margin-top: 250px;
+
+}
+.my-5{
+    margin-top: 150px;
+}
+p{
+    font-size: 20px;
+    font-weight: 400;
+}
+.loc{
+    font-size: 40px;
+    font-weight: 500;
+}
+.temp{
+    font-size: 50px;
+    font-weight: 600;
+}
+.body{
+    background:linear-gradient( 50deg, blue,red) ;
+}

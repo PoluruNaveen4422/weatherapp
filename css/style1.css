@@ -1,0 +1,54 @@
+.topbar1{
+    width: 100%;
+
+    background-color: aqua;
+  
+}
+.topbar2{
+   
+    width: 50%; 
+}
+li{
+    list-style-type:none;
+    display: inline;
+    padding-right: 30px;
+    letter-spacing: 3.5px;
+    word-spacing: 2.5px;
+    color: aliceblue;
+}
+li:hover{
+    width: 250px;
+    height: 250px;
+    color: rgb(240, 17, 17);
+    background-color: rgb(237, 239, 243);
+
+    transition-duration: 3s;
+    transition-delay: 0.1s;
+    
+    opacity: 0.7;
+}
+.bgimg img{
+    width: 100%;
+    opacity: 0.7;
+    border-radius: 20px;
+    box-shadow: 222px 2px 5px rgb(214, 31, 31);
+}
+@media(max-width:1200px){
+.bgimg{
+    width: 100%;
+}
+}
+@media(min-width:920px){
+    .topbar1,.topbar2{
+        display: hidden;
+    }
+
+}
+@media(max-width:320px) {
+    li{
+        display: none;
+    }
+}
+   a{
+    text-decoration-style: none;
+   } 

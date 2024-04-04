@@ -1,0 +1,173 @@
+body{
+    background-color:beige;
+}
+.title{
+    text-align: center;
+    margin-top: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topbar{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    margin: 0%;
+}
+.intopbar{
+    width: 50%;
+    float: left;
+
+}
+.intopbar ul li{
+    display: inline;
+    padding-right: 45px;
+}
+a{
+    text-decoration: none;
+}
+.intopbar ul li a{
+    color: white;
+    letter-spacing: 0.7px;
+}
+ button{
+    float: right;
+    padding: 15px;
+    background-color: yellow;
+    color: rgb(18, 91, 155);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+nav{
+    width: 100%;
+    height: 90px;
+}
+.logo{
+    width: 30%;
+    float: left;
+    
+}
+.navigate{
+    width: 70%;
+    float: left;
+    display: inline;
+}
+.navigate ul li{
+    display: inline;
+    padding-right: 45px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.7px;
+    
+}
+.navigate ul{
+    padding-top: 25px;
+}
+.para{
+ padding: 40px;
+}
+p{
+    text-align: justify;
+
+}
+.title{
+    margin-top: 0%;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0%;
+}
+.title span{
+    color: rgb(96, 14, 228);
+}
+.courses,.placements{
+    margin-bottom: 25px;
+}
+.courses,.placements{
+    width: 100%;
+    height: 500px;
+}
+.incourses,.inplacements {
+    width: 25%;
+    float: left;
+   
+}
+.incourses h4{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 10px 0px;
+}
+.m-25{
+    margin: 25px;
+
+}
+.test span{
+    text-align: center;
+    color: red;
+}
+
+
+.placement{
+    margin-top: 10px;
+}
+.placement span{
+    text-align: center;
+    color:violet;
+
+}
+.placement h2{
+    text-align: center;
+}
+
+.para,.d-reg h1 p{
+    text-align: center;
+}
+.d-reg button{
+    float: none;
+}
+.m-25 img{
+    box-shadow: 20px 15px 10px 2.5px pink;
+    border-radius: 20px;
+    border-color: azure;
+}
+.m-25 img:hover{
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.bgimg img{
+    margin-top: 25px;
+    box-shadow: 25px 5px 6px 1.5px rgb(145, 143, 134);
+    border-radius: 25% 0% 25% 0%;
+    border-color: red;
+}
+.d-reg{
+    position: relative;
+    padding-left: 20px ;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+.ftr {
+    display: inline;
+    
+    
+    list-style-type: none;
+    padding-right: 75px;
+}
+li{
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+

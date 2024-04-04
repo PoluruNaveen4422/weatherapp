@@ -1,0 +1,33 @@
+
+
+.topbar{
+    background-color:blue;
+}
+.topbar ul li {
+    display: inline;
+    padding-right: 30px;
+}
+.topbar ul{
+    padding: 8px 0px;
+
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 0px;
+   
+}
+ ul a {
+    text-decoration: none;
+    color: aliceblue;
+}
+ .topbar ul li{
+    margin-bottom: 0px;
+}
+
+.col-md-6 ul{
+    margin-bottom: 0px;
+}
+
+
+
+
