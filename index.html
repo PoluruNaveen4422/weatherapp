@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script src="Todo.js"></script>
+    
+</head>
+<body class="body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h1>Todo List</h1>
+                       <form>
+                        <input type="text"  id="inputbox" placeholder="Enter task" />
+                        <button onclick="Task()" class="add">ADD</button>
+                       </form>
+                       <ul id="lists">
+                        <!--<li class="checked">Task1</li>
+                        <li>Task2</li>
+                        <li>Task3</li>-->
+
+                       </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

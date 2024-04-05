@@ -1,0 +1,78 @@
+h1{
+    color: rgb(73, 181, 149);
+}
+.body{
+    background-color: violet;
+}
+.card{
+    padding: 20px;
+    margin:50px 0px 0px 200px;
+    justify-content: end;
+    justify-self: auto;
+    justify-content: space-between;
+
+}
+form input{
+    width: 70%;
+    border-radius: 20px;
+}
+.add{
+    color:white;
+    margin: 0px;
+    background-color: orange;
+    border-radius: 14px;
+    padding: 2px 20px ;
+    margin-left: 4px;
+}
+ul li{
+    list-style-type: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px 0px;
+    position: relative;
+}
+ul li::before{
+    content: none;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 10px;
+    left: 5px;
+
+}
+ul li span{
+    position: absolute;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    text-align: center;
+    
+}
+ul li span:hover{
+    background: rgb(109, 105, 105);
+}
+ .checked{
+    text-decoration: line-through;
+
+ }
+ @media(max-width:920px) {
+    .card{
+        margin: 40px 10px;
+    }
+    h1{
+        padding: 10px;
+    }
+    form input{
+        width: 100%;
+        border-radius: 15px;
+    }
+    button{
+        margin-top: 10px;
+    }
+    body{
+        background-color: violet;
+    }
+ }
